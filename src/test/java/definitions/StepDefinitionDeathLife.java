@@ -35,7 +35,7 @@ public class StepDefinitionDeathLife extends deathClaimBase
         @When("click product to cart")
         public void click_product_to_cart()
         {
-                Add_Log.info("When Executed");
+                Add_Log.info("When Executed with @Regression tags");
         }
 
         @Then("checkout and submit the order")
