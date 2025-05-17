@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Death Claim]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="listeners.ScreenshotUtility"/>
+  </listeners>
+  <test thread-count="5" name="Death LIfe(failed)" verbose="0">
+    <classes>
+      <class name="com.diligenta.deathClaim.TSL_DeathClaim">
+        <methods>
+          <include name="reporterDataResults"/>
+          <include name="checkCaseToRun"/>
+          <include name="TSL_DeathClaimTest" invocation-numbers="0 1"/>
+          <include name="checkSuiteToRun"/>
+        </methods>
+      </class> <!-- com.diligenta.deathClaim.TSL_DeathClaim -->
+    </classes>
+  </test> <!-- Death LIfe(failed) -->
+</suite> <!-- Failed suite [Death Claim] -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <properties>
+        <property name="dir">src/main/java/com/diligenta/logreporting</property>
+    </properties>
+
+    <!-- Appenders: Where the log messages will be sent -->
+    <Appenders>
+         Console Appender: Outputs logs to the console
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %C{1} %-5level - %msg%n%throwable"/>
+        </Console>
+
+        <!-- File Appender: Outputs logs to a file -->
+        <File name="FileAppender" fileName="logs/app-${date:d MMMM yyyy-HH-mm-ssaa}.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %C{1} %-5level - %msg%n%throwable"/>
+        </File>
+    </Appenders>
+
+    <!-- Loggers: Define which loggers will be used -->
+    <Loggers>
+        <!-- Root Logger: The root logger, applies to all loggers unless overridden -->
+        <Root level="info">
+            <AppenderRef ref="ConsoleAppender"/>
+            <AppenderRef ref="FileAppender"/> <!-- Corrected reference to FileAppender -->
+        </Root>
+
+        <!-- Example of a specific logger (e.g., for a specific package or class) -->
+        <Logger name="com.example" level="debug" additivity="false">
+            <AppenderRef ref="FileAppender"/>
+        </Logger>
+    </Loggers>
+</Configuration>

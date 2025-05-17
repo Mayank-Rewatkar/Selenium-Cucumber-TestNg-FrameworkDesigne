@@ -1,0 +1,33 @@
+2025-05-11 22:51:34 SuitBase INFO  - Properties File Loaded Successfully
+2025-05-11 22:51:35 SuitBase INFO  - Properties File Loaded Successfully
+2025-05-11 22:51:35 TSL_DeathClaim INFO  - TSL_DeathClaim : CaseToRun = Y Executing Test Excel.
+2025-05-11 22:51:35 TSL_DeathClaim INFO  - TSL_DeathClaim : DataToRun N for data set line 1 so skipping its Execution.
+2025-05-11 22:51:35 TSL_DeathClaim INFO  - Inside Skip Block 
+2025-05-11 22:51:35 TSL_DeathClaim INFO  - TSL_DeathClaim : DataToRun N for data set line 1 so Skip in Excel.
+2025-05-11 22:51:35 TSL_DeathClaim INFO  - TSL_DeathClaim : DataToRun N for data set line 2 so skipping its Execution.
+2025-05-11 22:51:35 TSL_DeathClaim INFO  - Inside Skip Block 
+2025-05-11 22:51:35 TSL_DeathClaim INFO  - TSL_DeathClaim : DataToRun N for data set line 2 so Skip in Excel.
+2025-05-11 22:51:35 TSL_DeathClaim INFO  - ---------Test Death Claim Starts Here---------
+2025-05-11 22:51:35 TSL_DeathClaim INFO  - caseName :- Case 3
+2025-05-11 22:51:38 SuitBase INFO  - Edge Browser Selected To Launch
+2025-05-11 22:51:38 TSL_DeathClaim INFO  - Browser launched
+2025-05-11 22:51:45 PageFunctions INFO  - Test Case is from sceen shotbmethod =3
+2025-05-11 22:51:45 PageFunctions INFO  - Screen shot path and name 3-11-May-2025_10-51-45PM.png
+2025-05-11 22:51:45 PageFunctions INFO  - Before Directory 
+2025-05-11 22:51:45 PageFunctions INFO  - Directory C:\Users\Hp\Intelije\SeleniumFrameworkDesigne\screenshots\3
+2025-05-11 22:51:45 PageFunctions INFO  - After Directory-------------- 
+2025-05-11 22:51:47 LoginPage INFO  - Done with Git Changes
+2025-05-11 22:51:47 PageFunctions INFO  - Test Case is from sceen shotbmethod =3
+2025-05-11 22:51:47 PageFunctions INFO  - Screen shot path and name 3-11-May-2025_10-51-47PM.png
+2025-05-11 22:51:47 PageFunctions INFO  - Before Directory 
+2025-05-11 22:51:47 PageFunctions INFO  - Directory C:\Users\Hp\Intelije\SeleniumFrameworkDesigne\screenshots\3
+2025-05-11 22:51:47 PageFunctions INFO  - After Directory-------------- 
+2025-05-11 22:51:57 TSL_DeathClaim INFO  - Inside the testFail Block
+2025-05-11 22:51:57 TSL_DeathClaim INFO  - TSL_DeathClaim : DataToRun N for data set line 3 so Skip in Excel.
+2025-05-11 22:51:58 PageFunctions INFO  - Status of Test in word FAIL
+2025-05-11 22:51:58 PageFunctions INFO  - Extracted Test Case No from word functions3
+2025-05-11 22:51:58 PageFunctions INFO  - Extracted Test Case Name from word function Case 3
+2025-05-11 22:51:58 PageFunctions INFO  - Old Directory C:\Users\Hp\Intelije\SeleniumFrameworkDesigne\screenshots\3
+2025-05-11 22:51:58 PageFunctions INFO  - Empty Document File Created
+2025-05-11 22:51:58 PageFunctions INFO  - Src File Path C:\Users\Hp\Intelije\SeleniumFrameworkDesigne\screenshots\3\3-11-May-2025_10-51-58PM.docx
+2025-05-11 22:51:58 PageFunctions INFO  - Destination Path C:\Users\Hp\Intelije\SeleniumFrameworkDesigne\screenshots\Case 3\FAIL-3-11-May-2025_10-51-58PM.docx

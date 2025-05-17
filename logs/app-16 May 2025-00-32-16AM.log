@@ -1,0 +1,16 @@
+2025-05-16 00:32:16 SuitBase INFO  - Properties File Loaded Successfully
+2025-05-16 00:32:34 SuitBase INFO  - Edge Browser Selected To Launch
+2025-05-16 00:32:34 StepDefinitionDeathLife INFO  - Browser launched
+2025-05-16 00:32:37 PageFunctions INFO  - Test Case is from sceen shotbmethod =111
+2025-05-16 00:32:38 PageFunctions INFO  - Screen shot path and name 111-16-May-2025_12-32-38AM.png
+2025-05-16 00:32:38 PageFunctions INFO  - Before Directory 
+2025-05-16 00:32:38 PageFunctions INFO  - Directory E:\Automation Framework\Selenium-Cucumber-TestNg-FrameworkDesigne_2025\screenshots\111
+2025-05-16 00:32:38 PageFunctions INFO  - After Directory-------------- 
+2025-05-16 00:32:44 LoginPage INFO  - Done with Git Changes
+2025-05-16 00:32:44 PageFunctions INFO  - Test Case is from sceen shotbmethod =111
+2025-05-16 00:32:45 PageFunctions INFO  - Screen shot path and name 111-16-May-2025_12-32-45AM.png
+2025-05-16 00:32:45 PageFunctions INFO  - Before Directory 
+2025-05-16 00:32:45 PageFunctions INFO  - Directory E:\Automation Framework\Selenium-Cucumber-TestNg-FrameworkDesigne_2025\screenshots\111
+2025-05-16 00:32:45 PageFunctions INFO  - After Directory-------------- 
+2025-05-16 00:32:45 StepDefinitionDeathLife INFO  - When Executed
+2025-05-16 00:32:45 StepDefinitionDeathLife INFO  - Then Executed

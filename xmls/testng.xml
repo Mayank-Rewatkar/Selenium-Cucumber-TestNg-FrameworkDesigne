@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name = "Suites">
+<!--<suite parallel="tests" name = "Suite">-->
+
+
+<!--    Implemented Listeners on failing the test Case-->
+    <listeners>
+        <listener class-name="listeners.ScreenshotUtility"/>
+    </listeners>
+
+    <test thread-count="5" name="Death LIfe">
+        <classes>
+            <class name="com.diligenta.deathClaim.TSL_DeathClaim"></class>
+        </classes>
+    </test>
+<!--    <test thread-count="5" name="Customer Admin">-->
+<!--        <classes>-->
+<!--            <class name="com.diligenta.customerAdmin.TSL_CustomerAdmin"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>

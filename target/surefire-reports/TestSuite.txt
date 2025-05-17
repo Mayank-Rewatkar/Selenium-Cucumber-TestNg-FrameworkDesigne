@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 23.411 s <<< FAILURE! - in TestSuite
+TSL_DeathClaimTest(com.diligenta.deathClaim.TSL_DeathClaim)  Time elapsed: 20.85 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //button[@routerlink='/dashboard/cart'] (tried for 5 second(s) with 50 milliseconds interval)
+	at com.diligenta.deathClaim.TSL_DeathClaim.TSL_DeathClaimTest(TSL_DeathClaim.java:102)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@routerlink='/dashboard/cart']"}
+  (Session info: MicrosoftEdge=135.0.3179.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7b83854289aae89f2a46920e1391b2fc, findElement {using=xpath, value=//button[@routerlink='/dashboard/cart']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 135.0.3179.85, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65150}, msedge: {msedgedriverVersion: 135.0.3179.85 (578105711aca..., userDataDir: C:\Users\Hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65150/devtoo..., se:cdpVersion: 135.0.3179.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7b83854289aae89f2a46920e1391b2fc
+	at com.diligenta.deathClaim.TSL_DeathClaim.TSL_DeathClaimTest(TSL_DeathClaim.java:102)
+

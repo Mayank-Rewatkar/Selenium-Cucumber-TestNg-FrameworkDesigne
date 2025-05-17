@@ -1,0 +1,7 @@
+com\diligenta\transferOut\StandAloneTest.class
+com\diligenta\deathClaim\deathClaimBase.class
+com\diligenta\customerAdmin\customerAdminBase.class
+listeners\ScreenshotUtility.class
+com\diligenta\deathClaim\TSL_DeathClaim.class
+listeners\RetryListener.class
+com\diligenta\customerAdmin\TSL_CustomerAdmin.class

@@ -1,0 +1,9 @@
+com\diligenta\testSuitBase\SuitBase.class
+com\diligenta\pages\BasePage.class
+com\diligenta\pages\ProductCatloguePage.class
+com\diligenta\utility\SuitUtility.class
+com\diligenta\pages\LoginPage.class
+com\diligenta\pages\PageFunctions.class
+com\diligenta\utility\Read_XLS.class
+com\diligenta\utility\Reports.class
+com\diligenta\pages\CustomerAdminPage.class
